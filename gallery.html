@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Siti Nur Atika">
+
+    <title>Gallery</title>
+
+<style>   
+ul{
+    list-style-type: none;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d5f4e6;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #616685;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.acitve){
+    background-color: black
+}
+
+.active{
+    background-color:#fefbd8;
+}
+
+h1{
+    text-align: center;
+    text-shadow:5px 5px 11px black;
+    font-family: Cooper;
+    font-size: 70px;
+    color: #fefbd8;
+    margin-top: 100px; 
+}
+
+img{
+    float: left;
+    margin-top: -150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+.square{
+	height: 10px;
+	width: 1548px;
+	background-color: black;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+body
+    {
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;  
+        background-size: cover;
+    }
+
+
+*{
+    box-sizing: border-box;
+    }
+
+.column{
+    float: left;
+    width: 33.1%;
+    padding: 0px;
+    margin-top: 200px;
+    }
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+	
+h2{
+	text-align: center;
+	color:#000000;
+	font-family:Trebuchet MS;
+}
+
+</style> 
+</head>
+
+
+<body>
+
+<h1>GALLERY</h1>
+
+<img src="images/logo.jpeg" alt="Logo" style="width:100px; height:100px; margin-right:45px;">
+
+<ul>
+    <li><a class="active" href="gallery.html">GALLERY</a></li>
+    <li><a class="active" href="accommodation.html">ACCOMMODATION</a></li>
+    <li><a class="active" href="food.html">FOOD</a></li>
+    <li><a class="active" href="transportation.html">TRANSPORTATION</a></li>
+    <li><a class="active" href="activity.html">ACTIVITY</a></li>
+    <li><a class="active" href="about.html">ABOUT</a></li>
+    <li><a class="active" href="index.html">HOME</a></li>   
+</ul>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/botikan.jpg" alt="botikan" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/udang.jpg" alt="udang" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pantai.jpg" alt="pantai" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/jambatan3.jpg" alt="jambatan" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pasar4.jpg" alt="pasar" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/resort2.jpg" alt="resort2" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/tugukapal3.jpg" alt="tugukapal3" style="width:89%">
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pantai2.jpg" alt="pantai2" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/ketam.JPG" alt="ketam" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/jambatan2.jpg" alt="jambatan2" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/tugukapal.jpg" alt="tugukapal" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pantai3.jpg" alt="pantai3" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/cendol.jpg" alt="cendol" style="width:89%">
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pasar2.jpg" alt="pasar2" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/keropok.jpg" alt="keropok" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/kerang.jpeg" alt="kerang" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/bakarbakar.jpg" alt="bakarbakar" style="width:89%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="zoom">
+            <img src="images/pasar3.jpg" alt="pasar" style="width:89%">
+    </div>
+</div>
+
+<h2 style="text-align:center; background-color: #d5f4e6;font-size: 15px;" >Copyright © 2022 Kampung Tok Bali.Recommended Browser Google Chrome Resolution 1366x768.Last Updated 26 July 2022.All Rights Reserved.</h2>
+   
+</body>
+</html>
